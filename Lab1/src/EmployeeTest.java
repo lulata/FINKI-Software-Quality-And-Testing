@@ -51,6 +51,7 @@ public class EmployeeTest {
 
 
         int sharedLength = Employee.notInBothTeams(firstSet, secondSet).size();
+        System.out.println(sharedLength);
         assertEquals(expected.size(), sharedLength);
     }
 
